@@ -1,4 +1,4 @@
-const Blogs = ({ blogs }) => {
+function Blogs({ blogs }) {
   return (
     <div className="container">
       {blogs.map((blog, i) => (
@@ -28,6 +28,6 @@ const Blogs = ({ blogs }) => {
       ))}
     </div>
   );
-};
+}
 
 export default Blogs;
